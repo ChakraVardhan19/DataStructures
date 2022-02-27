@@ -1,11 +1,13 @@
-import java.util.Scanner;
-
+import java.util.*;
 public class Ex {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter string:");
-        v = in.nextLine();
-        System.out.println(v);
+        String b = sc.nextLine();
+        System.out.println(b);
+        int a = sc.nextInt();
+        System.out.println(a);
+        sc.close();
 
     }
 }
