@@ -11,9 +11,7 @@ public class queue {
             int num = sc.nextInt();
             ar[i] = num;i++;
         }
-        for(int j; ) {
-            System.out.println(j);
-        }
+
         sc.close();
     }
 
